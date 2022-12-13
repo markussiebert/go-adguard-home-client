@@ -1,0 +1,9 @@
+package: "adguardhome"
+generate:
+  models: true
+  embedded-spec: true
+  client: true
+output: pkg/go-adguard-home/client.go
+output-options:
+  skip-prune: false
+  client-type-name: AdguardHomeClient
