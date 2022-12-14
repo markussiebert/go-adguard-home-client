@@ -1,4 +1,4 @@
-module github.com/markussiebert/go-adguard-home-client
+module github.com/markussiebert/go-adguardhome-client
 
 go 1.19
 
