@@ -1,4 +1,4 @@
-module github.com/markussiebert/go-adguard-home
+module github.com/markussiebert/go-adguard-home-client
 
 go 1.19
 
@@ -18,4 +18,8 @@ require (
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
+)
+
+replace (
+   github.com/markussiebert/go-adguard-home-client => "./pkg/adguardhomeapi"
 )
